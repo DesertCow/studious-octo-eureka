@@ -45,7 +45,7 @@ async function startLocalServer() {
     app.listen(PORT, () => {
       console.log(`💡     Database Connection:  \x1b[32mOnline\x1b[0m     💡`);
       // console.log(`${activity}`);
-      console.log(`🚀  Live API: \x1b[34mhttp://localhost:${PORT}/api\x1b[0m 🚀\n\n`);
+      console.log(`🚀  Live API: \x1b[34mhttp://localhost:${PORT}\x1b[0m 🚀\n\n`);
     });
   });
 }

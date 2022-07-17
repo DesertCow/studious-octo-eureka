@@ -71,16 +71,10 @@ npm start
 - Packages
   - Node.js (16.15.1)
   - Express.js (4.18.1)
-  - Bootstrap (5.2.0-beta1)
+  - Bootstrap (5.1.3)
   - Handlebars (4.7.7)
-  - Bcrypt (5.0.1)
-  - Sequelize (6.21.2)
-  - jquery (3.6.0)
-  - mysql2 (2.3.3)
-  - dotenv (16.0.1)
-    <br>
-- New Package
-  - simple-datatables (3.2.0)
+  * Mongoose (6.4.4)
+  * dotenv (16.0.1)
 
 <br>
 <br>

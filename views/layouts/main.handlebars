@@ -14,11 +14,22 @@
     crossorigin="anonymous"></script>
 </head>
 
-<body class="d-flex flex-column min-vh-100">
+{{!-- <body class="d-flex flex-column min-vh-100">
   <div class="flex-column justify-space-around min-vh-105">
     <header class="display-flex justify-space-between align-center p-2">
       {{> header}}
     </header>
+    <main class="container container-fluid">
+      {{{ body }}}
+    </main>
+    <footer class="mt-auto mb-0">
+      {{> footer}}
+    </footer>
+  </div>
+</body> --}}
+
+<body class="d-flex flex-column min-vh-100">
+  <div class="flex-column justify-space-around min-vh-105">
     <main class="container container-fluid">
       {{{ body }}}
     </main>

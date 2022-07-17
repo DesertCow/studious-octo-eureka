@@ -1,0 +1,28 @@
+:root {
+  --headerBG: #219EBC;
+  --btnHighlight: #FF99CA;
+  --btnGroup2: #2F6D7D;
+  --btnTrashHighlight: #FFEBB8;
+  --noteTitleBG: #B8E7F3;
+  --oldNoteBG: #FFCC4D;
+  --mainBG: #FF8F4D;
+}
+
+* {
+
+}
+
+.flex-container {
+  position:relative;
+}
+
+html body {
+  min-height: 100vh;
+  /* height: 100%; */
+  margin: 0;
+  padding: 0;
+  background-color: var(--mainBG);
+  display:flex; 
+  flex-direction:column;
+  display: flex;
+}
