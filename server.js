@@ -16,6 +16,12 @@ app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
 app.use(express.static(path.join(__dirname, 'public')));
+
+// Middleware Setup
+//const clog = require('./middleware/clog.js');
+// Initialize custom middleware
+//app.use(clog());
+
 app.use(require('./controllers'));
 
 const cwd = process.cwd();
@@ -27,6 +33,8 @@ const activity = cwd.includes('01-Activities')
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(routes);
+
+
 
 // app.use(express.json());
 // app.use(express.urlencoded({ extended: false }));
