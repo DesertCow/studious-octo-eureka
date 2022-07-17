@@ -29,7 +29,7 @@ Version 0.1</h5>
 
   <div align="center">
   <h3> Hosted by Heroku</h3>
-  <a href="https://surf-deck.herokuapp.com/">https://surf-deck.herokuapp.com/</a>
+  <a href="https://clayton-skaggs.herokuapp.com/">https://clayton-skaggs.herokuapp.com/</a>
   </div>
   <br>
   <br>
